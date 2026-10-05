@@ -74,7 +74,7 @@ export default function StoreMenuPage() {
             </div>
           </div>
           {/* FIXED SAKTI 1: Menggunakan gabungan string '+' murni dengan tanda '/' di dalam kutip biar wa.me/62822... ke-render mutlak! */}
-          <a href={'https://wa.me' + storeData.wa_number} target="_blank" className="bg-[#EF4444] text-white font-black text-[9px] px-3 py-1.5 rounded-xl border-2 border-slate-900 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all uppercase tracking-wider">
+          <a href={'https://wa.me/' + storeData.wa_number} target="_blank" className="bg-[#EF4444] text-white font-black text-[9px] px-3 py-1.5 rounded-xl border-2 border-slate-900 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all uppercase tracking-wider">
             Kasir 💬
           </a>
         </header>
