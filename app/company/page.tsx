@@ -371,7 +371,7 @@ export default function CompanyPage() {
         <div className={styles.problemIntro}>
           <SectionHeading
             eyebrow="01 — THE PROBLEM"
-            title="Ketika restoran ramai, antrean ikut menjadi masalah."
+            title="Ketika kios ramai, antrean ikut menjadi masalah."
             description="Kami melihat satu pola yang berulang: kasir menjadi titik kemacetan, pesanan masih dicatat manual, dan pelanggan menghabiskan waktu untuk hal yang seharusnya bisa dibuat lebih sederhana."
           />
           <div className={styles.problemQuote}>
@@ -408,7 +408,7 @@ export default function CompanyPage() {
             <h2>See Q-Order<br />in action.</h2>
             <p>Jelajahi alur pemesanan digital yang dirancang untuk pelanggan dan operasional F&amp;B.</p>
             <a className={styles.darkButton} href="/demo-1">
-              Open live demo <Icon name="arrowUp" size={17} />
+              <p style={{ color: 'black'}}>Open live demo <Icon name="arrowUp" size={17} /></p>
             </a>
           </div>
           <div className={styles.browserMockup}>
@@ -569,9 +569,9 @@ export default function CompanyPage() {
       <section id="about" className={`${styles.aboutSection} ${styles.container}`}>
         <div className={styles.aboutGrid}>
           <div className={styles.aboutVisual}>
-            <div className={styles.aboutStamp}><span>Q</span><strong>ORDER</strong><small>BUILT BY KOMINFO UBSI</small></div>
+            <div className={styles.aboutStamp}><span>Q</span><strong>ORDER</strong><small>BUILT BY Q ORDER</small></div>
             <div className={styles.aboutLines}>
-              <span /><span /><span /><span /><span />
+              
             </div>
             <div className={styles.aboutMiniCards}>
               <span>OBSERVE</span><span>BUILD</span><span>IMPROVE</span>
@@ -638,7 +638,7 @@ export default function CompanyPage() {
           <h2>Let&apos;s make ordering<br /><em>less complicated.</em></h2>
           <p>Jelajahi pengalaman Q-Order dan lihat bagaimana proses pemesanan dapat dibuat lebih sederhana.</p>
           <div className={styles.heroActions}>
-            <a className={styles.lightButton} href="/demo-1">Try Q-Order <Icon name="arrowUp" size={17} /></a>
+            <a className={styles.lightButton} href="/demo-1"><p style={{ color: '' }}>Try Q-Order <Icon name="arrowUp" size={17} /></p></a>
             <a className={styles.finalTextButton} href="#top">Back to top <Icon name="arrowUp" size={15} /></a>
           </div>
         </div>
