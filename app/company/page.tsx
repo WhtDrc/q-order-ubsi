@@ -338,7 +338,7 @@ export default function CompanyPage() {
           </p>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="/demo-1">
-              Try Q-Order <Icon name="arrow" size={17} />
+              <p style={{color: 'white'}}>Try Q-Order <Icon name="arrow" size={17} /></p>
             </a>
             <a className={styles.textButton} href="#features">
               Explore features <Icon name="arrow" size={16} />
@@ -408,7 +408,7 @@ export default function CompanyPage() {
             <h2>See Q-Order<br />in action.</h2>
             <p>Jelajahi alur pemesanan digital yang dirancang untuk pelanggan dan operasional F&amp;B.</p>
             <a className={styles.darkButton} href="/demo-1">
-              <p style={{ color: 'black'}}>Open live demo <Icon name="arrowUp" size={17} /></p>
+              <p style={{ color: 'black'}}>Open Demo <Icon name="arrowUp" size={17} /></p>
             </a>
           </div>
           <div className={styles.browserMockup}>
@@ -638,7 +638,7 @@ export default function CompanyPage() {
           <h2>Let&apos;s make ordering<br /><em>less complicated.</em></h2>
           <p>Jelajahi pengalaman Q-Order dan lihat bagaimana proses pemesanan dapat dibuat lebih sederhana.</p>
           <div className={styles.heroActions}>
-            <a className={styles.lightButton} href="/demo-1"><p style={{ color: '' }}>Try Q-Order <Icon name="arrowUp" size={17} /></p></a>
+            <a className={styles.lightButton} href="/demo-1"><p style={{ color: 'black' }}>Try Q-Order <Icon name="arrowUp" size={17} /></p></a>
             <a className={styles.finalTextButton} href="#top">Back to top <Icon name="arrowUp" size={15} /></a>
           </div>
         </div>
@@ -667,7 +667,6 @@ export default function CompanyPage() {
               <span>PROJECT</span>
               <a href="https://github.com/WhtDrc/q-order-ubsi" target="_blank" rel="noreferrer">GitHub</a>
               <a href="/demo-1">Demo</a>
-              <a href="#about">Kominfo UBSI</a>
             </div>
           </div>
         </div>
