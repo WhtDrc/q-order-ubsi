@@ -50,7 +50,7 @@
 .mobilePanel a:hover { background: var(--bg); }
 .mobileCta { display: inline-flex; justify-content: center; align-items: center; gap: 8px; background: var(--ink) !important; color: white !important; margin-top: 6px; }
 
-.hero { display: grid; grid-template-columns: .96fr 1.04fr; align-items: center; gap: 40px; padding-top: 0px; padding-bottom: 92px; min-height: 760px; }
+.hero { display: grid; grid-template-columns: .96fr 1.04fr; align-items: center; gap: 40px; padding-top: 80px; padding-bottom: 92px; min-height: 760px; }
 .heroCopy { max-width: 600px; }
 .heroEyebrow, .eyebrow { font-size: 11px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #68707d; }
 .heroEyebrow { display: inline-flex; align-items: center; gap: 9px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.36); }
@@ -266,7 +266,7 @@
 .footerBottom { display: flex; justify-content: space-between; gap: 20px; padding-top: 17px; border-top: 1px solid var(--line); color: #9299a3; font-size: 9px; line-height: 1.5; }
 
 @media (max-width: 1080px) {
-  .hero { grid-template-columns: 1fr; gap: 20px; padding-top: 60px; }
+  .hero { grid-template-columns: 1fr; gap: 20px; padding-top: 10px; }
   .heroCopy { max-width: 760px; }
   .productStage { min-height: 620px; }
   .teamGrid { grid-template-columns: repeat(3,1fr); }
@@ -290,7 +290,7 @@
 @media (max-width: 680px) {
   .container { width: min(100% - 26px, 560px); }
   .nav { width: min(100% - 20px, 560px); }
-  .hero { min-height: auto; padding-block: 54px 65px; }
+  .hero { min-height: auto; padding-block: 54px 65px; padding-top: 10px; }
   .hero h1 { font-size: clamp(51px, 16vw, 74px); }
   .heroCopy > p { font-size: 15px; }
   .heroActions { flex-wrap: wrap; }
@@ -335,6 +335,7 @@
 }
 
 @media (max-width: 460px) {
+  .hero { padding-top: 10px;}
   .teamGrid { grid-template-columns: 1fr; }
   .teamCard { min-height: auto; }
   .browserMockup { margin-top: 35px; }
